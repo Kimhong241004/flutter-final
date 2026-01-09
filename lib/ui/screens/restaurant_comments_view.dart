@@ -155,6 +155,11 @@ class _RestaurantCommentsViewState extends State<RestaurantCommentsView> {
                                 child: Row(
                                   mainAxisSize: MainAxisSize.min,
                                   children: [
+                                    const Icon(
+                                      Icons.star,
+                                      size: 16,
+                                      color: Colors.amber,
+                                    ),
                                     const SizedBox(width: 4),
                                     Text(
                                       comment.stars.toString(),
